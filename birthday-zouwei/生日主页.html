@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#07060f">
+<meta name="color-scheme" content="dark">
+<title>邹惟 · 十九岁生日快乐</title>
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body class="is-home">
+<canvas id="sky" aria-hidden="true"></canvas>
+<div class="wrap">
+<main class="home">
+  <p class="home__eyebrow">For 邹惟 · 19</p>
+  <h1 class="home__name">邹惟<small>生日快乐</small></h1>
+
+  <div class="home__age"><b>19</b><span>岁</span></div>
+  <p class="home__sub">十九岁这年，你从中学的教室走进大学的校园。这些照片替你记住了那些普通得不能再普通、却再也不会重来的下午。前面几张是爸爸想替你留住的，最后一张，留给你自己。</p>
+
+  <div class="home__rule"></div>
+  <p class="home__hint">点开任意一张，看看那天发生了什么</p>
+
+  <div class="cards">
+      <a class="card" href="canteen.html" style="--c: #f0a94a; --glow: rgba(240, 169, 74, .45)">
+        <img src="assets/photos/photo-canteen.jpg" alt="邹惟 · 干饭现场">
+        <span class="card__meta">
+          <span class="card__go" aria-hidden="true">→</span>
+          <span class="card__no">01 · 干饭现场</span>
+          <span class="card__t">先把饭吃饱</span>
+        </span>
+      </a>
+      <a class="card" href="classmates.html" style="--c: #8fe3c8; --glow: rgba(143, 227, 200, .4)">
+        <img src="assets/photos/photo-classmates.jpg" alt="邹惟 · 教室里的合影">
+        <span class="card__meta">
+          <span class="card__go" aria-hidden="true">→</span>
+          <span class="card__no">02 · 教室里的合影</span>
+          <span class="card__t">挤进一个镜头</span>
+        </span>
+      </a>
+      <a class="card" href="classroom.html" style="--c: #ffb3c7; --glow: rgba(255, 179, 199, .38)">
+        <img src="assets/photos/photo-classroom.jpg" alt="邹惟 · 课间的教室">
+        <span class="card__meta">
+          <span class="card__go" aria-hidden="true">→</span>
+          <span class="card__no">03 · 课间的教室</span>
+          <span class="card__t">课间十分钟</span>
+        </span>
+      </a>
+      <a class="card" href="selfie.html" style="--c: #c49bff; --glow: rgba(196, 155, 255, .4)">
+        <img src="assets/photos/photo-selfie.jpg" alt="邹惟 · 你拍我干嘛">
+        <span class="card__meta">
+          <span class="card__go" aria-hidden="true">→</span>
+          <span class="card__no">04 · 你拍我干嘛</span>
+          <span class="card__t">不用装大人</span>
+        </span>
+      </a>
+      <a class="card" href="shower.html" style="--c: #9fd8ff; --glow: rgba(159, 216, 255, .38)">
+        <img src="assets/photos/photo-shower.jpg" alt="邹惟 · 刚洗完头">
+        <span class="card__meta">
+          <span class="card__go" aria-hidden="true">→</span>
+          <span class="card__no">05 · 刚洗完头</span>
+          <span class="card__t">刚洗完头的人</span>
+        </span>
+      </a>
+      <a class="card" href="hat.html" style="--c: #ffd48a; --glow: rgba(255, 212, 138, .38)">
+        <img src="assets/photos/photo-hat.jpg" alt="邹惟 · 山路上的一天">
+        <span class="card__meta">
+          <span class="card__go" aria-hidden="true">→</span>
+          <span class="card__no">06 · 山路上的一天</span>
+          <span class="card__t">去发现更大的世界</span>
+        </span>
+      </a>
+      <a class="card card--old" href="gaokao.html" style="--c: #5fd4ff; --glow: rgba(95, 212, 255, .4)">
+        <img src="assets/photos/photo-69.jpg" alt="邹惟 · 高考倒计时 69">
+        <span class="card__meta">
+          <span class="card__go" aria-hidden="true">→</span>
+          <span class="card__no">07 · 高考倒计时 69</span>
+          <span class="card__t">69 天，你撑住了</span>
+        </span>
+      </a>
+      <a class="card card--old" href="father.html" style="--c: #e8c9a0; --glow: rgba(232, 201, 160, .4)">
+        <img src="assets/photos/photo-father.jpg" alt="邹惟 · 你爸和同学">
+        <span class="card__meta">
+          <span class="card__go" aria-hidden="true">→</span>
+          <span class="card__no">08 · 你爸和同学</span>
+          <span class="card__t">左边那个人是你爸</span>
+        </span>
+      </a>
+      <a class="card card--old" href="couple.html" style="--c: #ffb3c7; --glow: rgba(255, 179, 199, .4)">
+        <img src="assets/photos/photo-couple.jpg" alt="邹惟 · 和你在一起的人">
+        <span class="card__meta">
+          <span class="card__go" aria-hidden="true">→</span>
+          <span class="card__no">09 · 和你在一起的人</span>
+          <span class="card__t">她也在你的十九岁里</span>
+        </span>
+      </a>
+  </div>
+
+  <button class="fire-btn" id="fire-btn" type="button">
+    <span class="fire-btn__icon" aria-hidden="true">🎂</span>
+    <span class="fire-btn__label">放一朵烟花</span>
+  </button>
+
+  <p class="home__foot">MADE WITH LOVE · 邹惟 19</p>
+</main>
+</div>
+<script src="assets/sky.js"></script>
+</body>
+</html>
